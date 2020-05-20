@@ -168,6 +168,22 @@
 
     // ============== CONTACT ===============
 
+    // ============== FORM ===============
+    .form {
+        &__wrapper {
+            width: 100%;
+        }
+        &__feedback {
+            display: block;
+            width: 100%;
+            min-width: 100%;
+            input {
+                width: 100%;
+            }
+        }
+    }
+    // ============== FORM ===============
+
 
 
 
@@ -261,7 +277,28 @@
     }
 
     // ============== PROJECT ===============
+
+    // ============== INFO ===============
+    .info {
+        padding: 30px 0 10px 0;
+
+        &__inner {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            width: 50%;
+            margin-bottom: 15px;
+        }
+    }
+
+    // ============== INFO ===============
 }
+
+
+
+
+
 
 @media (max-width: 480px) {
 
@@ -361,5 +398,19 @@
 
     // ============== FOOTER ===============
 
+    // ============== INFO ===============
+    .info {
+        padding: 30px 0 10px 0;
 
+        &__inner {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+
+    // ============== INFO ===============
 }
