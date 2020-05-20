@@ -1,0 +1,365 @@
+@media (max-width: 1280px) {}
+
+@media (max-width: 1024px) {
+
+    // ============== CONTACT ===============
+    .contact {
+        padding: 30px 0;
+
+        &__inner {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+    }
+
+    // ============== CONTACT ===============
+}
+
+@media (max-width: 768px) {
+    body.lock {
+        overflow: hidden;
+    }
+
+    // ============== MENU ===============
+    .menu {
+        &__body {
+            height: 50px;
+        }
+
+        &__burger {
+            display: block;
+            position: relative;
+            width: 30px;
+            height: 5px;
+            background-color: #fff;
+            position: relative;
+            z-index: 3;
+            cursor: pointer;
+            transition: all .2s linear .2s;
+
+            &:before,
+            &:after {
+                content: "";
+                display: block;
+                background-color: #fff;
+                position: absolute;
+                width: 30px;
+                height: 5px;
+                left: 0;
+            }
+
+            &:before {
+                position: absolute;
+                left: 0;
+                top: -10px;
+                transition: transform .2s ease-in, top .2s ease-in .2s;
+            }
+
+            &:after {
+                position: absolute;
+                left: 0;
+                top: 10px;
+                transition: transform .2s ease-in, top .2s ease-in .2s;
+            }
+        }
+
+        &__nav {
+            position: fixed;
+            top: -100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #71b6d5;
+            padding: 70px 0;
+            overflow: auto;
+            transition: all .3s linear;
+        }
+
+        &__list {
+            display: block;
+            text-transform: uppercase;
+            text-align: center;
+
+            li {
+                margin: 40px 0;
+            }
+
+            a {
+                font-size: 40px;
+            }
+        }
+    }
+
+    // ============== MENU ===============
+
+    // ============== HEADER ===============
+    .header {
+        &__title {
+            font-size: 40px;
+        }
+
+        &__subtitle {
+            font-size: 22px;
+        }
+    }
+
+    // ============== HEADER ===============
+
+    // ============== PREVIOUS ===============
+    .previous {
+        padding: 40px 0;
+
+        &__text {
+            margin-bottom: 55px;
+        }
+
+        &__card {
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__item {
+            width: 50%;
+            max-width: 324px;
+            margin-bottom: 45px;
+        }
+    }
+
+    // ============== PREVIOUS ===============
+
+    // ============== PROJECT ===============
+    .project {
+        &__inner {
+            flex-wrap: wrap;
+            padding-bottom: 30px;
+        }
+
+        &__item {
+            width: 50%;
+        }
+    }
+
+    // ============== PROJECT ===============
+
+    // ============== CLIENT ===============
+    .client {
+        padding-bottom: 20px;
+    }
+
+    // ============== CLIENT ===============
+
+    // ============== CONTACT ===============
+    .contact {
+        padding: 30px 0;
+
+        &__inner {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+    }
+
+    // ============== CONTACT ===============
+
+
+
+
+
+}
+
+@media (max-width: 600px) {
+
+    // ============== HEADER ===============
+    .header {
+        &__title {
+            font-size: 30px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+        }
+    }
+
+    // ============== HEADER ===============
+
+    // ============== PREVIOUS ===============
+    .previous {
+        &__item {
+            width: 100%;
+
+        }
+    }
+
+    // ============== PREVIOUS ===============
+
+    // ============== FEATURES ===============
+    .features {
+        &__title {
+            margin-bottom: 30px;
+        }
+
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__item {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+
+    // ============== FEATURES ===============
+
+    // ============== CAMERA ===============
+    .camera {
+        &__inner {
+            flex-direction: column-reverse;
+        }
+
+        &__item {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 0;
+
+            img {
+                // display: block;
+                // width: 100%;
+                // height: auto;
+                // max-width: 410px;
+                // margin: 0 auto;
+            }
+        }
+
+    }
+
+    .camera__item:last-child {
+        padding: 0;
+    }
+
+    // ============== CAMERA ===============
+
+    // ============== PROJECT ===============
+    .project {
+        &__inner {
+            justify-content: center;
+        }
+
+        &__item {
+            width: 100%;
+            max-width: 410px;
+        }
+    }
+
+    // ============== PROJECT ===============
+}
+
+@media (max-width: 480px) {
+
+    // ============== HEADER ===============
+    .header {
+        min-height: 440px;
+
+        .slider__item {
+            max-width: 300px;
+        }
+
+        &__title {
+            font-size: 25px;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+        }
+    }
+
+    // ============== HEADER ===============
+
+
+    // ============== PREVIOUS ===============
+    .previous {
+        &__item {
+            width: 100%;
+
+        }
+    }
+
+    // ============== PREVIOUS ===============
+
+    // ============== FEATURES ===============
+    .features {
+        &__item {
+            img {
+                display: block;
+                width: 100%;
+                height: auto;
+                max-width: 410px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    // ============== FEATURES ===============
+
+    // ============== PROJECT ===============
+
+    // ============== PROJECT ===============
+
+    // ============== CONTACT ===============
+    .contact {
+
+
+        &__item {
+            width: 100%;
+        }
+    }
+
+    // ============== CONTACT ===============
+}
+
+@media (max-width: 320px) {
+
+    // ============== HEADER ===============
+    .header {
+
+        .slider__item {
+            max-width: 200px;
+        }
+
+        &__title {
+            font-size: 20px;
+        }
+
+        &__subtitle {
+            font-size: 14px;
+        }
+    }
+
+    // ============== HEADER ===============
+
+    // ============== PROJECT ===============
+
+    // ============== PROJECT ===============
+
+    // ============== FOOTER ===============
+    .footer__inner {
+        justify-content: center;
+    }
+
+    .footer__copy {
+        display: none;
+    }
+
+    // ============== FOOTER ===============
+
+
+}
